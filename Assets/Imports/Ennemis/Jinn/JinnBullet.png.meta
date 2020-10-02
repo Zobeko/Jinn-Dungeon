@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 4fedd75892deb20459cd4f9bf84028b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8340430209806296126
+    second: JinnBullet_0
+  - first:
+      213: -7588758832207165560
+    second: JinnBullet_1
+  - first:
+      213: -2889997503691189643
+    second: JinnBullet_2
+  - first:
+      213: -3970341006777803675
+    second: JinnBullet_3
+  - first:
+      213: 5550448973228210674
+    second: JinnBullet_4
+  - first:
+      213: 2773075848485440341
+    second: JinnBullet_5
+  - first:
+      213: -3745922734321976833
+    second: JinnBullet_6
+  - first:
+      213: -7106800715770715399
+    second: JinnBullet_7
+  - first:
+      213: 837149433891032916
+    second: JinnBullet_8
+  - first:
+      213: -8259302714069426410
+    second: JinnBullet_9
+  - first:
+      213: 2336243307532086516
+    second: JinnBullet_10
+  - first:
+      213: 263123039102928269
+    second: JinnBullet_11
+  - first:
+      213: 4761092994502621156
+    second: JinnBullet_12
+  - first:
+      213: -4670888099146697421
+    second: JinnBullet_13
+  - first:
+      213: 1383987405644394661
+    second: JinnBullet_14
+  - first:
+      213: 6047156117984970011
+    second: JinnBullet_15
+  - first:
+      213: 7667553106941984318
+    second: JinnBullet_16
+  - first:
+      213: 6836686331395983199
+    second: JinnBullet_17
+  - first:
+      213: -6834649171714761191
+    second: JinnBullet_18
+  - first:
+      213: -8246608123677184166
+    second: JinnBullet_19
+  - first:
+      213: 1368765183435720625
+    second: JinnBullet_20
+  - first:
+      213: 955156661569172034
+    second: JinnBullet_21
+  - first:
+      213: -5508525933698027820
+    second: JinnBullet_22
+  - first:
+      213: 1690658513874289995
+    second: JinnBullet_23
+  - first:
+      213: -931833438195440012
+    second: JinnBullet_24
+  - first:
+      213: 2259048089971061317
+    second: JinnBullet_25
+  - first:
+      213: -363414230030290520
+    second: JinnBullet_26
+  - first:
+      213: 1770765183510449492
+    second: JinnBullet_27
+  - first:
+      213: 1600148257856426635
+    second: JinnBullet_28
+  - first:
+      213: 2136437244189871439
+    second: JinnBullet_29
+  - first:
+      213: -6348202033637430163
+    second: JinnBullet_30
+  - first:
+      213: 172718043695425550
+    second: JinnBullet_31
+  - first:
+      213: -5120492757498499502
+    second: JinnBullet_32
+  - first:
+      213: -2097156501043866315
+    second: JinnBullet_33
+  - first:
+      213: -5455314079936757674
+    second: JinnBullet_34
+  - first:
+      213: 9121228360116434992
+    second: JinnBullet_35
+  - first:
+      213: -3173278938162589582
+    second: JinnBullet_36
+  - first:
+      213: -2930953888137946395
+    second: JinnBullet_37
+  - first:
+      213: 593542463710666121
+    second: JinnBullet_38
+  - first:
+      213: -7075936340132861245
+    second: JinnBullet_39
+  - first:
+      213: -1640790089445407886
+    second: JinnBullet_40
+  - first:
+      213: -7433859886356388638
+    second: JinnBullet_41
+  - first:
+      213: 7539922382966385662
+    second: JinnBullet_42
+  - first:
+      213: -4199575939916085847
+    second: JinnBullet_43
+  - first:
+      213: 9127357538189892553
+    second: JinnBullet_44
+  - first:
+      213: 8778875889098025164
+    second: JinnBullet_45
+  - first:
+      213: -7997483087000339948
+    second: JinnBullet_46
+  - first:
+      213: -4294968760741878940
+    second: JinnBullet_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JinnBullet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb1f86e9e6d04c80800000000000000
+      internalID: -8340430209806296126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8870f209c005fa690800000000000000
+      internalID: -7588758832207165560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57298be059aa4e7d0800000000000000
+      internalID: -2889997503691189643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c97ddd3e386e8c0800000000000000
+      internalID: -3970341006777803675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9f2310fe7270d40800000000000000
+      internalID: 5550448973228210674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8034bac1fb7620800000000000000
+      internalID: 2773075848485440341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9bda0be1fc30cc0800000000000000
+      internalID: -3745922734321976833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2aef607629f5d90800000000000000
+      internalID: -7106800715770715399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f8ef689f62e9b00800000000000000
+      internalID: 837149433891032916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd873f0ff016d80800000000000000
+      internalID: -8259302714069426410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc655609e00c6020800000000000000
+      internalID: 2336243307532086516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8583fd820dc6a300800000000000000
+      internalID: 263123039102928269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinnBullet_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7fde76adcc21240800000000000000
+      internalID: 4761092994502621156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
