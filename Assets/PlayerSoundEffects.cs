@@ -5,9 +5,9 @@ using UnityEngine.Audio;
 
 public class PlayerSoundEffects : MonoBehaviour
 {
-    public AudioClip jumpSound;
-    public AudioClip doubleJumpSound;
-    public AudioClip walkSound;
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip doubleJumpSound;
+    [SerializeField] private AudioClip walkSound;
     
 
     private GameObject player;

@@ -4,8 +4,8 @@ using UnityEngine;
 public class EnnemiMovements : MonoBehaviour
 {
     //Bolléens
-    public bool isOnPlatform = true;
-    public bool isInFrontOfObstacle = false;
+    [SerializeField] private bool isOnPlatform = true;
+    [SerializeField] private bool isInFrontOfObstacle = false;
     private bool _isFlipping;
     public bool isFlipping
     {
@@ -32,10 +32,10 @@ public class EnnemiMovements : MonoBehaviour
     }
 
     //Flottants
-    public float checkOnPlatformRadius;
-    public float checkObstacleRadius;
+    [SerializeField] private float checkOnPlatformRadius;
+    [SerializeField] private float checkObstacleRadius;
     private float ennemiWidth;
-    public float shotSpawPointDistance;
+    [SerializeField] private float shotSpawPointDistance;
     private float checkObstacleDistance;
     private float checkOnPlatformDistance;
     private float jinnCurrentHealth;
@@ -45,19 +45,19 @@ public class EnnemiMovements : MonoBehaviour
     private Vector3 vref = Vector3.zero;
 
     // Extern objects
-    public GameObject player;
-    public LayerMask layerMaskEnnemis;
+    [SerializeField] private GameObject player;
+    [SerializeField] private LayerMask layerMaskEnnemis;
 
     //Les empties qui permettent de checker les obstacles et fin de plateforme
-    public Transform checkOnPlatform;
+    [SerializeField] private Transform checkOnPlatform;
     public Transform checkObstacle;
-    public Transform shotSpawPoint;
+    [SerializeField] private Transform shotSpawPoint;
 
     //Ennemi's components
-    public SpriteRenderer sr;
-    public Rigidbody2D rb;
-    public Vector3 ennemiSpeed;
-    public HealthBar jinnHealthBar;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Vector3 ennemiSpeed;
+    [SerializeField] private HealthBar jinnHealthBar;
     
 
     // Start is called before the first frame update

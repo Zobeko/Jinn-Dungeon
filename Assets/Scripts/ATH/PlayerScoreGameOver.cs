@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PlayerScoreGameOver : MonoBehaviour
 {
 
-    public Text scoreTextGameOver;
+    [SerializeField] private Text scoreTextGameOver;
 
     public PlayerScore playerScore;
 

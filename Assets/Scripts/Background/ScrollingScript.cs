@@ -5,17 +5,17 @@ using UnityEngine;
 public class ScrollingScript : MonoBehaviour
 {
 
-    public Vector2 speed;
-    public Vector2 direction;
+    [SerializeField] private Vector2 speed;
+    [SerializeField] private Vector2 direction;
 
-    public bool isLinkedToCamera = false;
-    public bool isLooping = true;
+    [SerializeField] private bool isLinkedToCamera = false;
+    [SerializeField] private bool isLooping = true;
 
     
     private List<Transform> backgroundParts;
 
     private CameraFollowsPlayer cam;
-    public GameObject player;
+    [SerializeField] private GameObject player;
 
     void Start()
     {

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class NbOfLives : MonoBehaviour
 {
 
-    public HealthBar playerHealthBar;
+    [SerializeField] private HealthBar playerHealthBar;
 
     // Start is called before the first frame update
     void Start()

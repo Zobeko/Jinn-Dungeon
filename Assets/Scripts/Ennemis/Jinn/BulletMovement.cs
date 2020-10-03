@@ -4,22 +4,22 @@ using UnityEngine;
 public class BulletMovement : MonoBehaviour
 {
 
-    public float speed;
-    public float endAnimDelay;
+    [SerializeField] private float speed;
+    [SerializeField] private float endAnimDelay;
 
-    public bool endTime = false;
+    [SerializeField] private bool endTime = false;
 
-    public Rigidbody2D rb;
-    public SpriteRenderer sr;
-    public GameObject ennemi;
-    public GameObject bullet;
-    public Transform shotSpawPoint;
-    public Animator animator;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private GameObject ennemi;
+    [SerializeField] private GameObject bullet;
+    [SerializeField] private Transform shotSpawPoint;
+    [SerializeField] private Animator animator;
 
-    public AudioClip explosionAudioClip;
+    [SerializeField] private AudioClip explosionAudioClip;
 
 
-    public JinnAttack jinnAttack;
+    [SerializeField] private JinnAttack jinnAttack;
 
 
 

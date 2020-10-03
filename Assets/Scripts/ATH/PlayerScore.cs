@@ -5,7 +5,7 @@ public class PlayerScore : MonoBehaviour
 {
     public float playerScore;
 
-    public Text scoreText;
+    [SerializeField] private Text scoreText;
 
 
     // Start is called before the first frame update

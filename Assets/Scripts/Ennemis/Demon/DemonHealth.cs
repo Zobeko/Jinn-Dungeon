@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class DemonHealth : MonoBehaviour
 {
-    public float endAnimhurtDelay;
-    public float deathAnimDelay;
+    [SerializeField] private float endAnimhurtDelay;
+    [SerializeField] private float deathAnimDelay;
 
 
-    public int healthMax = 100;
+    [SerializeField] private int healthMax = 100;
     public int currentHealth;
-    public int demonScoreValue = 35;
+    [SerializeField] private int demonScoreValue = 35;
 
     private bool isDead = false;
     private bool isHurted = false;
 
     private System.Random random = new System.Random();
-    public PlayerAttack playerAttack;
-    public PlayerScore playerScoreObject;
-    public Animator demonAnimator;
-    public GameObject demon;
-    public GameObject attackPickUp;
-    public GameObject heartPickUp;
-    public GameObject invincibilityPickUp;
+    [SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private PlayerScore playerScoreObject;
+    [SerializeField] private Animator demonAnimator;
+    [SerializeField] private GameObject demon;
+    [SerializeField] private GameObject attackPickUp;
+    [SerializeField] private GameObject heartPickUp;
+    [SerializeField] private GameObject invincibilityPickUp;
     // Start is called before the first frame update
     void Start()
     {

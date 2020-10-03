@@ -2,9 +2,9 @@
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    [SerializeField] private GameObject pauseMenu;
 
-    public AudioClip openPauseMenuSound;
+    [SerializeField] private AudioClip openPauseMenuSound;
 
     // Start is called before the first frame update
     void Start()

@@ -4,25 +4,25 @@ using System;
 
 public class JinnHealth : MonoBehaviour
 {
-    public float endAnimhurtDelay;
-    public float deathAnimDelay;
+    [SerializeField] private float endAnimhurtDelay;
+    [SerializeField] private float deathAnimDelay;
 
 
-    public int healthMax = 100;
+    [SerializeField] private int healthMax = 100;
     public int currentHealth;
-    public int jinnScoreValue = 50;
+    [SerializeField] private int jinnScoreValue = 50;
 
     private bool isDead = false;
     private bool isHurted = false;
 
     private static System.Random random = new System.Random();
-    public PlayerAttack playerAttack;
-    public PlayerScore playerScoreObject;
-    public Animator jinnAnimator;
-    public GameObject jinn;
-    public GameObject attackPickUp;
-    public GameObject heartPickUp;
-    public GameObject invincibilityPickUp;
+    [SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private PlayerScore playerScoreObject;
+    [SerializeField] private Animator jinnAnimator;
+    [SerializeField] private GameObject jinn;
+    [SerializeField] private GameObject attackPickUp;
+    [SerializeField] private GameObject heartPickUp;
+    [SerializeField] private GameObject invincibilityPickUp;
 
     // Start is called before the first frame update
     void Start()

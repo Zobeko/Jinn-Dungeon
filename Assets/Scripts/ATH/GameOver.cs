@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    public HealthBar playerHealthBar;
+    [SerializeField] private HealthBar playerHealthBar;
 
     private GameObject G;
     private GameObject A;

@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
 
-    public AudioClip[] playlist;
-    public AudioSource audioSource;
-    public AudioMixerGroup soundEffectsMixer;
+    [SerializeField] private AudioClip[] playlist;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioMixerGroup soundEffectsMixer;
 
     //Singleton de AudioManager
     public static AudioManager instance;
@@ -23,6 +24,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
         instance = this;
+
     }
 
     // Start is called before the first frame update

@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class JinnAttack : MonoBehaviour
 {
-    public float jinnDamages;
-    public float animAttackDelay;
-    public float delayBetween2Attacks;
+    [SerializeField] private float jinnDamages;
+    [SerializeField] private float animAttackDelay;
+    [SerializeField] private float delayBetween2Attacks;
 
-    public bool isAlive = true;
-    public bool shotSignal;
-    public bool _isAttacking;
+    [SerializeField] private bool isAlive = true;
+    [SerializeField] private bool shotSignal;
+    private bool _isAttacking;
     public bool isAttacking
     {
         get { return _isAttacking; }
@@ -26,13 +26,13 @@ public class JinnAttack : MonoBehaviour
             
         }
     }
-            
 
 
-    public Animator animator;
-    public SpriteRenderer sr;
-    public GameObject jinnBullet;
-    public GameObject bulletSpawnPoint;
+
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer sr;
+    [SerializeField] private GameObject jinnBullet;
+    [SerializeField] private GameObject bulletSpawnPoint;
 
     // Start is called before the first frame update
     void Start()
