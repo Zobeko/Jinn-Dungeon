@@ -418,7 +418,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 55708251}
   sr: {fileID: 55708250}
   jinnBullet: {fileID: 817678264}
@@ -1494,7 +1493,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 270808555}
   sr: {fileID: 270808554}
   jinnBullet: {fileID: 977585824}
@@ -3805,7 +3803,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 573423787}
   sr: {fileID: 573423786}
   jinnBullet: {fileID: 1593816089}
@@ -5946,7 +5943,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 863715189}
   sr: {fileID: 863715188}
   jinnBullet: {fileID: 1217062522}
@@ -6655,7 +6651,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 973913237}
   sr: {fileID: 973913236}
   jinnBullet: {fileID: 1150879239}
@@ -7219,7 +7214,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 994701743}
   sr: {fileID: 994701742}
   jinnBullet: {fileID: 998826271}
@@ -7833,7 +7827,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1020715466}
   sr: {fileID: 1020715465}
   jinnBullet: {fileID: 722152903}
@@ -9343,7 +9336,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1156413950}
   sr: {fileID: 1156413949}
   jinnBullet: {fileID: 798625901}
@@ -11500,7 +11492,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1368511741}
   sr: {fileID: 1368511740}
   jinnBullet: {fileID: 735567282}
@@ -11905,7 +11896,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1421423135}
   sr: {fileID: 1421423134}
   jinnBullet: {fileID: 295905972}
@@ -14148,7 +14138,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1640703062}
   sr: {fileID: 1640703061}
   jinnBullet: {fileID: 249271757}
@@ -14454,7 +14443,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 1700496049}
   sr: {fileID: 1700496048}
   jinnBullet: {fileID: 1361653359}
@@ -23646,7 +23634,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 2019609269}
   sr: {fileID: 2019609268}
   jinnBullet: {fileID: 1136240762}
@@ -30113,7 +30100,6 @@ MonoBehaviour:
   delayBetween2Attacks: 1.5
   isAlive: 1
   shotSignal: 0
-  _isAttacking: 0
   animator: {fileID: 2126982750}
   sr: {fileID: 2126982749}
   jinnBullet: {fileID: 634956183}
@@ -30370,14 +30356,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9147530429563241297, guid: 096c322bcb8e3e24fa653a06d5562fbe,
         type: 3}
-      propertyPath: checkpointSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 666066172ea29b34eb749151a6603cd9, type: 3}
-    - target: {fileID: 9147530429563241297, guid: 096c322bcb8e3e24fa653a06d5562fbe,
-        type: 3}
       propertyPath: playerSpawn
       value: 
-      objectReference: {fileID: 2070929821}
+      objectReference: {fileID: 1174171136}
     - target: {fileID: 9147530429563241299, guid: 096c322bcb8e3e24fa653a06d5562fbe,
         type: 3}
       propertyPath: m_Name
@@ -30742,6 +30723,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2777017192154645986, guid: 4c60a2c89ea7ca34f9558a17822ed949,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2070929821}
+    - target: {fileID: 2777017192154645986, guid: 4c60a2c89ea7ca34f9558a17822ed949,
+        type: 3}
+      propertyPath: playerHealthBar
+      value: 
+      objectReference: {fileID: 2070929828}
+    - target: {fileID: 2777017192154645986, guid: 4c60a2c89ea7ca34f9558a17822ed949,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2938019474670236687, guid: 4c60a2c89ea7ca34f9558a17822ed949,
         type: 3}
       propertyPath: walkSound
@@ -30842,6 +30838,11 @@ PrefabInstance:
       propertyPath: playerDeathSound
       value: 
       objectReference: {fileID: 8300000, guid: e89038fb392e17f488abd81b6953e348, type: 3}
+    - target: {fileID: 4384490930331861932, guid: 4c60a2c89ea7ca34f9558a17822ed949,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4384490930472509234, guid: 4c60a2c89ea7ca34f9558a17822ed949,
         type: 3}
       propertyPath: explosionAudioClip
