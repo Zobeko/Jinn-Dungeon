@@ -3,7 +3,7 @@
 <br>
 
 <br>
-  <img src="https://github.com/Zobeko/Jinn-Dungeon/blob/master/Ressources/Youtube_Logo.png" />
+  <img height=128 src="https://github.com/Zobeko/Jinn-Dungeon/blob/master/Ressources/Youtube_Logo.png" />
 <br>
 Lien Youtube du gameplay du jeu : [Jinn Dungeon - Gameplay](https://www.youtube.com/channel/UCR2b6_Ky-ZfJE4R7i7wMnWg)
 
