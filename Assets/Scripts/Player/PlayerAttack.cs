@@ -3,25 +3,25 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float animAttackDelay;
-    public float delayBetween2Attacks;
+    [SerializeField] private float animAttackDelay;
+    [SerializeField] private float delayBetween2Attacks;
     private float specialAttackDelay = 15f;
 
     public int bulletDamages;
     private readonly int baseBulletDamages = 50;
 
 
-    public GameObject playerBullet;
-    public GameObject copyBullet;
-    public Transform bulletSpawnPoint;
+    [SerializeField] private GameObject playerBullet;
+    [SerializeField] private GameObject copyBullet;
+    [SerializeField] private Transform bulletSpawnPoint;
 
-    public playerBulletMovement pBulletMovement;
+    [SerializeField] private playerBulletMovement pBulletMovement;
 
 
-    public bool shotSignal;
-    public bool _isAttacking;
-    public bool upAttack;
-    public bool downAttack;
+    [SerializeField] private bool shotSignal;
+    [SerializeField] private bool _isAttacking;
+    [SerializeField] private bool upAttack;
+    [SerializeField] private bool downAttack;
     public bool isSpecialAttack;
     public bool isAttacking
     {
@@ -44,7 +44,7 @@ public class PlayerAttack : MonoBehaviour
     }
 
 
-    public Animator animator;
+    [SerializeField] private Animator animator;
 
 
 
