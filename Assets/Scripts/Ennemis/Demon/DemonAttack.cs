@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DemonAttack : MonoBehaviour
 {
-    public float demonDamages;
-    public float animAttackDelay;
-    public float delayBetween2Attacks;
+    [SerializeField] private float demonDamages;
+    [SerializeField] private float animAttackDelay;
+    [SerializeField] private float delayBetween2Attacks;
 
-    public bool isOnCollisionWithPlayer;
+    [SerializeField] private bool isOnCollisionWithPlayer;
 
     private bool _isAttacking;
     public bool isAttacking

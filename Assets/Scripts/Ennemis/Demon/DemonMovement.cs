@@ -6,10 +6,10 @@ using UnityEngine;
 public class DemonMovement : MonoBehaviour
 {
     //Bolléens
-    public bool isOnPlatform = true;
-    public bool isInFrontOfObstacle = false;
+    [SerializeField] private bool isOnPlatform = true;
+    [SerializeField] private bool isInFrontOfObstacle = false;
     private bool _isFlipping;
-    public bool isFlipping
+    [SerializeField] private bool isFlipping
     {
         get { return _isFlipping; }
         set

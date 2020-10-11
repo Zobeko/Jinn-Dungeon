@@ -3,7 +3,7 @@
 public class BackgroundFollowsCamera : MonoBehaviour
 {
 
-    public GameObject mainCamera;
+    [SerializeField] private GameObject mainCamera;
 
     private Vector3 v = Vector3.zero;
 

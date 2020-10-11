@@ -3,9 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string stagesScene;
 
-    public GameObject settingWindow;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private string stagesScene;
+
+    [SerializeField] private GameObject settingWindow;
 
     void Start()
     {

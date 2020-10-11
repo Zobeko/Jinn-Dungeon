@@ -216,12 +216,6 @@ PrefabInstance:
       propertyPath: playlist.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 31cc45a241b25e848bd7f791b7bc0df8, type: 3}
-    - target: {fileID: 966691779625970204, guid: 24816d07b094eba408ddfd648054aaa3,
-        type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 4419291230609685016, guid: 747b70f5552c2c847925f4e70d56dd00,
-        type: 2}
     - target: {fileID: 966691779625970205, guid: 24816d07b094eba408ddfd648054aaa3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -279,6 +273,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24816d07b094eba408ddfd648054aaa3, type: 3}
+--- !u!82 &398063179 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 966691779625970204, guid: 24816d07b094eba408ddfd648054aaa3,
+    type: 3}
+  m_PrefabInstance: {fileID: 290582376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &418594648
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,6 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bdc00dad25ff354189dfb79fea5abd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 398063179}
   stagesScene: LevelSelectionScene
   settingWindow: {fileID: 1999619371}
 --- !u!114 &1381636278

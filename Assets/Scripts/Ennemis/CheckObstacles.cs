@@ -2,7 +2,7 @@
 
 public class CheckObstacles : MonoBehaviour    
 {
-    public SpriteRenderer sr;
+    [SerializeField] private SpriteRenderer sr;
 
 
     // Start is called before the first frame update

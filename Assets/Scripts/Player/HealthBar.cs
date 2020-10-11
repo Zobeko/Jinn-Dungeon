@@ -7,18 +7,19 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public int nbOfLives = 3;
-    public float healthMax;
+    [SerializeField] private float healthMax;
     public float currentHealth = 100;
-    public float nbHearts;
-    public float endAnimhurtDelay;
+    [SerializeField] private float nbHearts;
+    [SerializeField] private float endAnimhurtDelay;
     public float endAnimDeathDelay;
     private readonly float invincibilityDelay = 5f;
     private float lifeForInvincibility = 2;
 
-    public bool isHurted;
-    public bool isDead;
+    [SerializeField] private bool isHurted = false;
+    public bool isDead = false;
+    public bool isGameOver = false;
 
-    public bool _isInvincible;
+    [SerializeField] private bool _isInvincible;
     public bool isInvincible
     {
         get { return _isInvincible; }
@@ -35,7 +36,7 @@ public class HealthBar : MonoBehaviour
     }
 
 
-    public SpriteRenderer sr;
+    [SerializeField] private SpriteRenderer sr;
 
     //private GameObject player;
 
@@ -69,8 +70,12 @@ public class HealthBar : MonoBehaviour
             nbOfLives -= 1;
 
             currentHealth = nbHearts;
-            
 
+            isDead = true;
+        }
+        else
+        {
+            isDead = false;
         }
 
         if(currentHealth >= nbHearts)
