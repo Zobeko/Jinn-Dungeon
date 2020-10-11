@@ -1,3 +1,5 @@
+![Screenshot](Image_Github_Jin_Dungeon.png)
+
 # Jinn-Dungeon
 Jinn Dungeon est un jeu de plateforme en 2D dans un univers fantastique. Celui-ci a été développé à l'aide du moteur de jeux vidéos Unity et avec le langage C#. Ce jeu est un petit projet réalisé pendant l'été afin de prendre en main Unity.
 
@@ -12,6 +14,7 @@ Vous pouvez aussi installer la version 2019.4.4 directement au lien suivant : [U
 ## Installation par Unity Hub
 L'installation de Unity Hub se fait en suivant la démarche suivante :
   - Télécharger le fichier executable (.exe) de [Unity Hub](https://unity3d.com/fr/get-unity/download)
-  - Lancer cet executable
+  - Lancer cet executable et installer Unity Hub
+  - Une fois installé, lancer Unity Hub
   - 
 
