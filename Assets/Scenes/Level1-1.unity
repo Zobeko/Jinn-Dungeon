@@ -9701,6 +9701,12 @@ Transform:
   m_Father: {fileID: 1272105502}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1174171136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4384490930331861932, guid: 4c60a2c89ea7ca34f9558a17822ed949,
+    type: 3}
+  m_PrefabInstance: {fileID: 4384490929387222783}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1178862084
 GameObject:
   m_ObjectHideFlags: 0
@@ -30367,6 +30373,11 @@ PrefabInstance:
       propertyPath: checkpointSound
       value: 
       objectReference: {fileID: 8300000, guid: 666066172ea29b34eb749151a6603cd9, type: 3}
+    - target: {fileID: 9147530429563241297, guid: 096c322bcb8e3e24fa653a06d5562fbe,
+        type: 3}
+      propertyPath: playerSpawn
+      value: 
+      objectReference: {fileID: 2070929821}
     - target: {fileID: 9147530429563241299, guid: 096c322bcb8e3e24fa653a06d5562fbe,
         type: 3}
       propertyPath: m_Name
@@ -31189,9 +31200,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9147530429563241297, guid: 096c322bcb8e3e24fa653a06d5562fbe,
         type: 3}
-      propertyPath: checkpointSound
+      propertyPath: playerSpawn
       value: 
-      objectReference: {fileID: 8300000, guid: 666066172ea29b34eb749151a6603cd9, type: 3}
+      objectReference: {fileID: 1174171136}
     - target: {fileID: 9147530429563241299, guid: 096c322bcb8e3e24fa653a06d5562fbe,
         type: 3}
       propertyPath: m_Name

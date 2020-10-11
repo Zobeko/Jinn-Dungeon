@@ -6,14 +6,13 @@ public class CheckPoint : MonoBehaviour
 {
     private bool isActivated;
 
-    private GameObject playerSpawn;
+    [SerializeField] private GameObject playerSpawn;
     private Animator graphicAnimator;
 
-    public AudioClip checkpointSound;
+    [SerializeField] private AudioClip checkpointSound;
 
     private void Awake()
     {
-        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn");
         isActivated = false;
         graphicAnimator = transform.GetChild(0).gameObject.GetComponent<Animator>();
     }

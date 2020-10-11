@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSound: {fileID: 8300000, guid: 7e77bc66a25276e409d36d50e469bc07, type: 3}
   doubleJumpSound: {fileID: 8300000, guid: c8c731e92b187764b80fd77d981fea74, type: 3}
+  walkSound: {fileID: 0}
 --- !u!1 &4384490928703294937
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +244,6 @@ MonoBehaviour:
   isGrounded: 1
   isJumping: 0
   isDoubleJumping: 0
-  isMoving: 0
   CheckGrounded: {fileID: 4384490930661636932}
   layerMaskGrounded:
     serializedVersion: 2
@@ -356,6 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ddf93b1fae7864ab5343c74d730c4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnDelay: 2
 --- !u!1 &4384490930472509240
 GameObject:
   m_ObjectHideFlags: 0

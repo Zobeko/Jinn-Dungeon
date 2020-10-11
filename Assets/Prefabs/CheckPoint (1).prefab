@@ -71,6 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1bdadb5e37fd33448d22fad45e3b04c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSpawn: {fileID: 0}
+  checkpointSound: {fileID: 8300000, guid: 666066172ea29b34eb749151a6603cd9, type: 3}
 --- !u!1 &9147530430101219345
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class PlayerRespawn : MonoBehaviour
 
     private float endAnimDeathDelay;
     private float currentPlayerHealth;
+    [SerializeField] private float respawnDelay;
 
 
     private GameObject player;
@@ -58,8 +59,8 @@ public class PlayerRespawn : MonoBehaviour
         yield return new WaitForSeconds(endAnimDeathDelay);
         player.SetActive(false);
         player.transform.position = transform.position;
-        yield return new WaitForSeconds(2f);
-        if (!player.GetComponent<HealthBar>().isGameOver)
+        yield return new WaitForSeconds(respawnDelay);
+        if (player.GetComponent<HealthBar>().nbOfLives > 0)
         {
             player.SetActive(true);
             player.GetComponent<HealthBar>().isDead = false;

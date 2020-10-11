@@ -17,7 +17,6 @@ public class HealthBar : MonoBehaviour
 
     public bool isHurted;
     public bool isDead;
-    public bool isGameOver;
 
     public bool _isInvincible;
     public bool isInvincible
