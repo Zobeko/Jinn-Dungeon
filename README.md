@@ -4,8 +4,8 @@
 
 <br>
   <img height=64 src="https://github.com/Zobeko/Jinn-Dungeon/blob/master/Ressources/Youtube_Logo.png" /> 
-<br> Lien Youtube du gameplay du jeu : [Jinn Dungeon - Gameplay](https://www.youtube.com/channel/UCR2b6_Ky-ZfJE4R7i7wMnWg)
-
+<br> 
+Lien Youtube du gameplay du jeu : [Jinn Dungeon - Gameplay](https://www.youtube.com/channel/UCR2b6_Ky-ZfJE4R7i7wMnWg)
 
 # Jinn-Dungeon
 Jinn Dungeon est un jeu de plateforme en 2D dans un univers fantastique. Celui-ci a été développé à l'aide du moteur de jeux vidéos Unity et avec le langage C#. Ce jeu est un petit projet réalisé pendant l'été afin de prendre en main Unity.
