@@ -11,13 +11,14 @@ public class PlayerRespawn : MonoBehaviour
     [SerializeField] private float respawnDelay;
 
 
-    private GameObject player;
+    [SerializeField] private GameObject player;
+    [SerializeField] private HealthBar playerHealthBar;
 
     //private readonly HealthBar playerHealthBar;
     // Start is called before the first frame update
     void Awake()
     {
-        player = GameObject.Find("Player");
+        
         
         endAnimDeathDelay = player.GetComponent<HealthBar>().endAnimDeathDelay;
 
@@ -32,23 +33,15 @@ public class PlayerRespawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentPlayerHealth = player.GetComponent<HealthBar>().currentHealth;
+        //currentPlayerHealth = player.GetComponent<HealthBar>().currentHealth;
 
-        if (currentPlayerHealth <= 0)
+        if (playerHealthBar.isDead)
         {
 
             StartCoroutine(Respawn());
             
 
         }
-
-        
-
-        
-        
-        
-
-
 
     }
 
@@ -58,12 +51,12 @@ public class PlayerRespawn : MonoBehaviour
     {
         yield return new WaitForSeconds(endAnimDeathDelay);
         player.SetActive(false);
-        player.transform.position = transform.position;
+        player.transform.position = this.transform.position;
         yield return new WaitForSeconds(respawnDelay);
-        if (player.GetComponent<HealthBar>().nbOfLives > 0)
+        if (playerHealthBar.nbOfLives > 0)
         {
             player.SetActive(true);
-            player.GetComponent<HealthBar>().isDead = false;
+            playerHealthBar.isDead = false;
         }
 
 
