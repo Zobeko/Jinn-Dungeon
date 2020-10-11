@@ -1,4 +1,3 @@
-![Screenshot](Image_Github_Jin_Dungeon.png)
 <br>
   <img src="https://github.com/Zobeko/Jinn-Dungeon/blob/master/Ressources/Image_Github_Jin_Dungeon.PNG" />
 <br>
